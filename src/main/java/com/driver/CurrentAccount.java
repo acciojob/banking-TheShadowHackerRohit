@@ -2,6 +2,7 @@ package com.driver;
 
 public class CurrentAccount extends BankAccount{
     String tradeLicenseId; //consists of Uppercase English characters only
+
     public  static  int minBalance = 5000;
 
     public CurrentAccount(String name, double balance, String tradeLicenseId) throws Exception {
