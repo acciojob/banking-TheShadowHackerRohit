@@ -11,6 +11,7 @@ public class CurrentAccount extends BankAccount{
         if(balance < minBalance){
             throw new Exception("Insufficient Balance");
         }
+
         this.tradeLicenseId = tradeLicenseId;
         validateLicenseId();
     }
